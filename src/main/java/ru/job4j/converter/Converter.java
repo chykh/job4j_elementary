@@ -1,4 +1,4 @@
-package ru.job4j;
+package ru.job4j.converter;
 
 public class Converter {
 
@@ -8,7 +8,8 @@ public class Converter {
     }
 
     public static float rubleToDollar(float value) {
-        float rsl = value / 60;
+        //  float rsl = value / 60;
+        float rsl = -1;
         return rsl;
     }
 
