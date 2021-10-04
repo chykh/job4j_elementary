@@ -43,4 +43,5 @@ public class LogicNot {
         System.out.println(LogicNot.notEvenAndPositive(a));
         System.out.println(LogicNot.evenOrNotPositive(a));
     }
+
 }
