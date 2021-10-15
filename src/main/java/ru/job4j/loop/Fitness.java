@@ -2,7 +2,7 @@ package ru.job4j.loop;
 
 public class Fitness {
     public static int calc(int ivan, int nik) {
-        if (ivan <= 0 || nik <= 0 || ivan >= nik) {
+        if (ivan <= 0 || nik <= 0 || ivan > nik) {
             System.out.println("некорректные исходные данные");
             return 0;
         }
