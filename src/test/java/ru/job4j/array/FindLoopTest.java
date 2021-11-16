@@ -15,11 +15,11 @@ public class FindLoopTest {
     }
 
     @Test
-    public void whenArrayHas5Then2()    {
+    public void whenArrayHasNO5ThenMinus1()    {
         int[] data = {6, 3, 15, -7, 8, 3};
         int el = 5;
         int result = FindLoop.indexOf(data, 5);
-        int expected = 2;
-        Assert.assertNotEquals(result, expected);
+        int expected = -1;
+        Assert.assertEquals(result, expected);
     }
 }
