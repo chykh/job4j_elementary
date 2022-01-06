@@ -34,7 +34,6 @@ public class LogicNot {
         System.out.println(LogicNot.notPositive(a));
         System.out.println(LogicNot.notEvenAndPositive(a));
         System.out.println(LogicNot.evenOrNotPositive(a));
-
         a = -6;
         System.out.println(LogicNot.isEven(a));
         System.out.println(LogicNot.isPositive(a));
