@@ -28,4 +28,33 @@ public class MaxTest {
         int expect = 5;
         Assert.assertEquals(Max.max(left, right), expect);
     }
+
+    @Test
+    public void when456then6() {
+        int left = 4;
+        int center = 5;
+        int right = 6;
+        int expected = 6;
+        Assert.assertEquals(Max.max(left, center, right), expected);
+    }
+
+    @Test
+    public void when8765then8() {
+        int left = 8;
+        int center = 7;
+        int right = 6;
+        int addit = 5;
+        int expected = 8;
+        Assert.assertEquals(Max.max(left, center, right, addit), expected);
+    }
+
+    @Test
+    public void when17125then12() {
+        int left = 1;
+        int center = 7;
+        int right = 12;
+        int addit = 5;
+        int expected = 12;
+        Assert.assertEquals(Max.max(left, center, right, addit), expected);
+    }
 }
