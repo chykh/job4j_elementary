@@ -15,6 +15,9 @@ public class MathFunction {
     }
 
     public static double division(double first, double second) {
+        if (second == 0) {
+            throw new IllegalArgumentException("Division by zero");
+        }
         return first / second;
     }
 }
